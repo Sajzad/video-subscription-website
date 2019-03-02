@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>{{object.title}}</h2>
+    {% for lesson in object.lessons %}
+      <p><a href="{{ lesson.get_absolute_url}}">{{lesson.title}}</a></p>
+      {% endfor %}
+
+  </body>
+</html>
