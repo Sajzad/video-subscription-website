@@ -1,9 +1,9 @@
 # video-subscription-website
 This is my First blog consisting of a number of apps in Django Framework. This was done for learning purpose.
 
-* **Python** version: 3.6
+* **Python** version: 3(latest)
 
-* **Django** version: 2.2.10
+* **Django** version: 3(Latest)
 
 * Database: **Postgresql**
 
@@ -20,7 +20,7 @@ This is my First blog consisting of a number of apps in Django Framework. This w
 
 * Clone the repo: ```https://github.com/Sajzad/My-first-Blog.git```
 
-* Go to **blogging** dir. And create virtual environment with virtualenv: ```virtualenv -p /usr/bin/python3.6 .env```.
+* Go to **video_subscription_site** dir. And create virtual environment with virtualenv: ```virtualenv -p /usr/bin/python3.6 .env```.
 
 * Activate the virtual environment: ```source .env/bin/activate```.
 
